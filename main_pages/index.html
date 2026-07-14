@@ -84,7 +84,7 @@
 
                 if (!msg.trim()) return;
 
-                fetch("https://pushnotifs.kuhncaleb98.workers.dev", {
+                const response = await fetch("https://pushnotifs.kuhncaleb98.workers.dev", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ message: msg })
