@@ -1,7 +1,7 @@
 {
   "name": "Messaging Service",
   "short_name": "Message",
-  "start_url": "/main_pages/index.html",
+  "start_url": "main_pages/index.html",
   "display": "standalone",
   "background_color": "#09054a",
   "theme_color": "#3d33f7",
